@@ -12,6 +12,7 @@ flask-migrate = "*"
 flask-script = "*"
 flask-marshmallow = "*"
 marshmallow-sqlalchemy = "*"
+celery = {extras = ["redis"], version = "*"}
 
 [dev-packages]
 pylint = "*"
